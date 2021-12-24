@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		84BE939A27760750004EF82A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE939927760750004EF82A /* AppDelegate.swift */; };
 		84BE939C27760750004EF82A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE939B27760750004EF82A /* SceneDelegate.swift */; };
-		84BE939E27760750004EF82A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE939D27760750004EF82A /* ViewController.swift */; };
 		84BE93A127760750004EF82A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BE939F27760750004EF82A /* Main.storyboard */; };
 		84BE93A427760750004EF82A /* IOS_MVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84BE93A227760750004EF82A /* IOS_MVC.xcdatamodeld */; };
 		84BE93A627760751004EF82A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BE93A527760751004EF82A /* Assets.xcassets */; };
@@ -17,6 +16,11 @@
 		84BE93B427760751004EF82A /* IOS_MVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE93B327760751004EF82A /* IOS_MVCTests.swift */; };
 		84BE93BE27760751004EF82A /* IOS_MVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE93BD27760751004EF82A /* IOS_MVCUITests.swift */; };
 		84BE93C027760752004EF82A /* IOS_MVCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE93BF27760752004EF82A /* IOS_MVCUITestsLaunchTests.swift */; };
+		84BE93D127760943004EF82A /* StarWarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE93CC27760943004EF82A /* StarWarsModel.swift */; };
+		84BE93D227760943004EF82A /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE93CD27760943004EF82A /* PeopleTableViewController.swift */; };
+		84BE93D327760943004EF82A /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE93CE27760943004EF82A /* People.swift */; };
+		84BE93D427760943004EF82A /* FilmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE93CF27760943004EF82A /* FilmsTableViewController.swift */; };
+		84BE93D527760943004EF82A /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BE93D027760943004EF82A /* Films.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		84BE939627760750004EF82A /* IOS MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE939927760750004EF82A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BE939B27760750004EF82A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84BE939D27760750004EF82A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84BE93A027760750004EF82A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84BE93A327760750004EF82A /* IOS_MVC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOS_MVC.xcdatamodel; sourceTree = "<group>"; };
 		84BE93A527760751004EF82A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		84BE93B927760751004EF82A /* IOS MVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS MVCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BE93BD27760751004EF82A /* IOS_MVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_MVCUITests.swift; sourceTree = "<group>"; };
 		84BE93BF27760752004EF82A /* IOS_MVCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_MVCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84BE93CC27760943004EF82A /* StarWarsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsModel.swift; sourceTree = "<group>"; };
+		84BE93CD27760943004EF82A /* PeopleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		84BE93CE27760943004EF82A /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		84BE93CF27760943004EF82A /* FilmsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmsTableViewController.swift; sourceTree = "<group>"; };
+		84BE93D027760943004EF82A /* Films.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,13 @@
 		84BE939827760750004EF82A /* IOS MVC */ = {
 			isa = PBXGroup;
 			children = (
+				84BE93D027760943004EF82A /* Films.swift */,
+				84BE93CF27760943004EF82A /* FilmsTableViewController.swift */,
+				84BE93CE27760943004EF82A /* People.swift */,
+				84BE93CD27760943004EF82A /* PeopleTableViewController.swift */,
+				84BE93CC27760943004EF82A /* StarWarsModel.swift */,
 				84BE939927760750004EF82A /* AppDelegate.swift */,
 				84BE939B27760750004EF82A /* SceneDelegate.swift */,
-				84BE939D27760750004EF82A /* ViewController.swift */,
 				84BE939F27760750004EF82A /* Main.storyboard */,
 				84BE93A527760751004EF82A /* Assets.xcassets */,
 				84BE93A727760751004EF82A /* LaunchScreen.storyboard */,
@@ -262,9 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BE93A427760750004EF82A /* IOS_MVC.xcdatamodeld in Sources */,
-				84BE939E27760750004EF82A /* ViewController.swift in Sources */,
+				84BE93D527760943004EF82A /* Films.swift in Sources */,
 				84BE939A27760750004EF82A /* AppDelegate.swift in Sources */,
+				84BE93D127760943004EF82A /* StarWarsModel.swift in Sources */,
 				84BE939C27760750004EF82A /* SceneDelegate.swift in Sources */,
+				84BE93D427760943004EF82A /* FilmsTableViewController.swift in Sources */,
+				84BE93D327760943004EF82A /* People.swift in Sources */,
+				84BE93D227760943004EF82A /* PeopleTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
